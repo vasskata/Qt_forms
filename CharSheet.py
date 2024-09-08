@@ -1,10 +1,12 @@
-from PySide6.QtWidgets import QApplication, QWidget
+from PySide6.QtWidgets import QApplication, QWidget, QVBoxLayout
 import sys
 
 class CharSheet(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("D&D Character Sheet")
+
+        main_layout = QVBoxLayout(self)
 
 
 
